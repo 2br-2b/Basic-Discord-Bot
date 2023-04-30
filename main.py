@@ -9,14 +9,14 @@ import config
 intents = discord.Intents.default()
 intents.guilds = True
 
-class Porygenesis_Bot(commands.Bot):
+class Basic_Discord_Bot_Bot(commands.Bot):
     async def setup_hook(self):
         
         await load_cogs(self, ["cogs.ping_cog"])
         asyncio.create_task(bot.tree.sync())
         
         
-bot = Porygenesis_Bot(command_prefix=config.PREFIX, intents=intents)
+bot = Basic_Discord_Bot_Bot(command_prefix=config.PREFIX, intents=intents)
 
 
 @bot.event
