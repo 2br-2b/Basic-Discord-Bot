@@ -1,6 +1,7 @@
 import discord
-from discord.ext import tasks, commands
 from discord import app_commands
+from discord.ext import commands, tasks
+
 
 # Listens for DMs to add to the story
 class ping_cog(commands.Cog):
