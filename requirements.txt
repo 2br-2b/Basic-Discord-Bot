@@ -1,1 +1,2 @@
 discord.py==2.2.2
+fluent.runtime==0.4.0
