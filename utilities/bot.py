@@ -34,7 +34,7 @@ class BasicDiscordBot(commands.Bot):
         if isinstance(error, app_commands.CommandOnCooldown):
             
             
-            return await interaction.response.send_message(await interaction.translate(_("missing-perms"), data={"seconds": error.retry_after}), ephemeral=True)
+            return await interaction.response.send_message(await interaction.translate(_("cooldown-message"), data={"seconds": error.retry_after}), ephemeral=True)
 
         elif isinstance(error, app_commands.MissingPermissions):
             return await interaction.response.send_message(await interaction.translate(_("missing-perms")), ephemeral=True)
