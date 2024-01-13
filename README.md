@@ -4,7 +4,7 @@
 
 ## About
 
-This started out as part of [StoryBot](https://discord.com/application-directory/623698680574115841), a discord bot written by me, John Wuller. I want to contribute back to the open source community, but I don't want someone to just yoink my code and just rip off all my work. This is my compromise: while StoryBot itself is not open source, it's framework is. Feel free to take this code and create your own Discord bots!
+This started out as part of [StoryBot](https://discord.com/application-directory/623698680574115841), a discord bot I wrote. I want to contribute back to the open source community, but I don't want someone to just yoink my code and just rip off all my work. This is my compromise: while StoryBot itself is not open source, it's framework is. Feel free to take this code and create your own Discord bots!
 
 This bot is not meant for beginners. While a beginner could use it, this includes a lot of concepts (like translations, cogs, etc.) which might make it hard to get started. If you just wnat to make a simple discord bot, discord.py's [quickstart guide](https://discordpy.readthedocs.io/en/latest/quickstart.html) can help you create a simple response bot.
 
