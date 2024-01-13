@@ -3,8 +3,22 @@ import time
 
 import discord
 
-import config
 from utilities.bot import BasicDiscordBot
+
+try:
+    import config
+except ModuleNotFoundError:
+    # Check if the file exists
+    # If it doesn't, copy the example file
+    from os.path import exists
+    if not exists("config.py"):
+        import shutil
+        shutil.copyfile("config.example.py", "config.py")
+        print("Please edit your config file (config.py) and then restart the bot.")
+        exit()
+    else:
+        print("Something went wrong importing the config file. Check your config file for any errors, then restart the bot.")
+        exit()
 
 intents = discord.Intents.default()
         
