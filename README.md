@@ -39,3 +39,11 @@ Finally, after all this setup and after you activate the virtual environment, yo
 # Make sure to activate the virtual environment first!
 python main.py
 ```
+
+## Resources
+
+Here are some good resources to learn more:
+
+- [The discord.py docs](https://discordpy.readthedocs.io/en/latest/)
+- [The official discord.py server](https://discord.gg/r3sSKJJ)
+- [AbstractUmbra's guides](https://about.abstractumbra.dev/dpy)
