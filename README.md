@@ -47,3 +47,4 @@ Here are some good resources to learn more:
 - [The discord.py docs](https://discordpy.readthedocs.io/en/latest/)
 - [The official discord.py server](https://discord.gg/r3sSKJJ)
 - [AbstractUmbra's guides](https://about.abstractumbra.dev/dpy)
+- [thegamecrack's translation demo](https://github.com/thegamecracks/discord.py-i18n-demo)
